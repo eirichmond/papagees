@@ -7,5 +7,23 @@
 
 // Column width with margin
 @mixin column-width($numberColumns: 3) {
-	width: map-get($columns, $numberColumns) - ( ( $columns__margin * ( $numberColumns - 1 ) ) / $numberColumns );
+	width: map-get($columns, $numberColumns) - (($columns__margin * ($numberColumns - 1)) / $numberColumns);
+}
+
+@mixin tablet {
+	@media screen and (min-width: $tablet) {
+		@content;
+	}
+}
+
+@mixin desktop {
+	@media screen and (min-width: $desktop) {
+		@content;
+	}
+}
+
+@mixin wide {
+	@media screen and (min-width: $wide) {
+		@content;
+	}
 }

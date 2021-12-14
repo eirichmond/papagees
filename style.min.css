@@ -99,7 +99,7 @@ textarea{width:100%}
 .main-navigation ul ul a{width:200px}
 .main-navigation ul li:hover>ul,.main-navigation ul li.focus>ul{left:auto}
 .main-navigation li{position:relative}
-.main-navigation a{display:block;text-decoration:none}
+.main-navigation a{display:block;text-decoration:none;color:#fff;text-transform:uppercase;padding:0 .5em}
 .menu-toggle,.main-navigation.toggled ul{display:block}
 .site-main .comment-navigation,.site-main .posts-navigation,.site-main .post-navigation{margin:0 0 1.5em}
 .comment-navigation .nav-links,.posts-navigation .nav-links,.post-navigation .nav-links{display:-webkit-box;display:-ms-flexbox;display:flex}
@@ -217,8 +217,18 @@ p.stars.selected a:not(.active)::before{content:"\53";color:#4169e1;opacity:1}
 .widget_price_filter .price_slider_wrapper .ui-widget-content{background:rgba(0,0,0,0.1)}
 .widget_price_filter .ui-slider-horizontal{height:.5em}
 .widget_price_filter .ui-slider-horizontal .ui-slider-range{height:100%}
+.contain{width:100vw;padding:1.5em;overflow:auto}
+.site-header{background-color:#38a169}
+h1.site-title,h2.site-description{margin:0;padding:0;position:absolute;clip:rect(1px,1px,1px,1px);line-height:0;height:0}
+.main-navigation{background-color:#1a202c}
+.site-footer{background:#38a169}
+.site-info{padding:4em;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center}
+.post-type-archive .price{position:absolute;color:#fff;background:#c53030;top:4em;font-weight:700;padding:.5em 1em;border-bottom-right-radius:1em;border-top-right-radius:1em}
+ul.products li.product{border-bottom:dotted #3e4654 5px;padding-bottom:2em;margin-bottom:2em}
+.woocommerce-LoopProduct-link{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;gap:1em;text-decoration:none;color:#fff}
+.woocommerce-loop-product__title{margin:0;padding:0}
 @media screen and (min-width:37.5em){.menu-toggle{display:none}
-.main-navigation ul{display:-webkit-box;display:-ms-flexbox;display:flex}
+.main-navigation ul{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:end;-ms-flex-pack:end;justify-content:flex-end}
 }@media screen and (min-width:48em){table.shop_table_responsive thead{display:table-header-group}
 table.shop_table_responsive tbody th{display:table-cell}
 table.shop_table_responsive tr th,table.shop_table_responsive tr td{text-align:left}
@@ -233,9 +243,10 @@ ul.products.columns-3 li.product{width:30.7966666667%}
 ul.products.columns-4 li.product{width:22.15%}
 ul.products.columns-5 li.product{width:16.96%}
 ul.products.columns-6 li.product{width:13.4933333333%}
-.site-header-cart .widget_shopping_cart{position:absolute;top:100%;width:100%;z-index:999999;left:-999em;display:block;-webkit-box-shadow:0 3px 3px rgba(0,0,0,0.2);box-shadow:0 3px 3px rgba(0,0,0,0.2)}
-.site-header-cart:hover .widget_shopping_cart,.site-header-cart.focus .widget_shopping_cart{left:0;display:block}
-}@media screen and (min-width:768px){.col2-set .form-row-first{float:left;margin-right:3.8%}
+.col2-set .form-row-first{float:left;margin-right:3.8%}
 .col2-set .form-row-last{float:right;margin-right:0}
 .col2-set .form-row-first,.col2-set .form-row-last{width:48.1%}
+.site-header-cart .widget_shopping_cart{position:absolute;top:100%;width:100%;z-index:999999;left:-999em;display:block;-webkit-box-shadow:0 3px 3px rgba(0,0,0,0.2);box-shadow:0 3px 3px rgba(0,0,0,0.2)}
+.site-header-cart:hover .widget_shopping_cart,.site-header-cart.focus .widget_shopping_cart{left:0;display:block}
+}@media screen and (min-width:75em){.contain{width:1280px;margin:0 auto}
 }

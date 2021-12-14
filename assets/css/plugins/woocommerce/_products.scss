@@ -17,7 +17,7 @@ ul.products {
 	}
 }
 
-@media screen and (min-width: 48em) {
+@media screen and (min-width: $desktop) {
 
 	ul.products {
 
@@ -52,7 +52,7 @@ ul.products {
 
 			li.product {
 
-				@include column-width( $i );
+				@include column-width($i);
 			}
 
 		}

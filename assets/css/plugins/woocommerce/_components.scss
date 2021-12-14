@@ -89,7 +89,7 @@ p.stars {
 
 		&:hover {
 
-			~ a::before {
+			~a::before {
 				content: "\53";
 				color: $color__text-main;
 				opacity: 0.25;
@@ -119,7 +119,7 @@ p.stars {
 				opacity: 1;
 			}
 
-			~ a::before {
+			~a::before {
 				content: "\53";
 				color: $color__text-main;
 				opacity: 0.25;
@@ -248,7 +248,7 @@ p.no-comments {
 	z-index: 9999;
 }
 
-@media screen and (min-width: 48em) {
+@media screen and (min-width: $desktop) {
 
 	/**
 	 * Header cart
