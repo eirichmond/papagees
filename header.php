@@ -61,6 +61,9 @@
 					if ( $papagees_description || is_customize_preview() ) : ?>
 				<h2 class="site-description"><?php echo $papagees_description; // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?></h2>
 			<?php endif; ?>
+
+			<?php do_action('papagees_delivery_availability'); ?>
+			
 		</div><!-- .site-branding -->
 
 		<nav id="site-navigation" class="main-navigation">
