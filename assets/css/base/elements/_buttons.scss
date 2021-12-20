@@ -2,7 +2,7 @@ button,
 input[type="button"],
 input[type="reset"],
 input[type="submit"] {
-	border: 1px solid;
+	border: 0;
 	border-color: $color__border-button;
 	border-radius: 3px;
 	background: $color__background-button;
