@@ -28,7 +28,6 @@
 	<header id="masthead" class="site-header">
 		<div class="site-branding contain">
 			<a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home">
-				<?xml version="1.0" encoding="UTF-8"?>
 				<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="193px" height="41px" viewBox="0 0 193 41" version="1.1">
 					<title>Group 2</title>
 					<defs>
@@ -63,7 +62,7 @@
 			<?php endif; ?>
 
 			<?php do_action('papagees_delivery_availability'); ?>
-			
+
 		</div><!-- .site-branding -->
 
 		<nav id="site-navigation" class="main-navigation">
